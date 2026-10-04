@@ -1,0 +1,6 @@
+services:
+  job-market-intelligence:
+    build: .
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
